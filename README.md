@@ -19,9 +19,11 @@ Finish | ~4:00pm
 
 - Admin - create slack channel, split up into 6 groups, give each pair a (/zoom breakout room), and aws account creds from log in spreadsheet
 - Intro - the team, who we are and our journeys into software engineering (go through your LinkedIn profile)
--
 
-- Intro to AWS Cloud ~ 10 mins https://www.slideshare.net/CloudHesive/aws-101-an-introduction-to-the-amazon-cloud
+
+- Intro to AWS Cloud ~ 10 mins https://www.slideshare.net/mobile/AmazonWebServices/module-1-introduction-to-the-aws-cloud-awsome-day-online-conference-2019
+  - By end of 2018, AWS annual revenue = $25.65 billion
+  - AWS has over 60% of cloud market
   - Explore AWS a bit and go over services
 
 - EC2 - deeper dive, create instance
