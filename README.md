@@ -18,37 +18,35 @@ Finish | ~4:00pm
 ## Syllabus
 
 - Admin - create slack channel, split up into 6 groups, give each pair a (/zoom breakout room), and aws account creds from log in spreadsheet
-- Intro - the team, who we are and our journeys into software engineering (go through your Linkedin profile)
+- Intro - the team, who we are and our journeys into software engineering (go through your LinkedIn profile)
 -
 
 - Intro to AWS Cloud ~ 10 mins https://www.slideshare.net/CloudHesive/aws-101-an-introduction-to-the-amazon-cloud
   - Explore AWS a bit and go over services
 
 - EC2 - deeper dive, create instance
-  **Joint exercise**
-  Break up into your groups:
-  - Spin up and configure an ec2 instance in dev VPC of choice
-  - Get nodejs 14+ installed
-  - Get a rudimentary NodeJS web app running.  Sample one in `/app`
-  - Poke holes in the security group to the world
-  - Access your API from the world
-    - observe your "access logs"
+  - Break up into your groups:
+    - Spin up and configure an ec2 instance in dev VPC of choice
+    - Get nodejs 14+ installed
+    - Get a rudimentary NodeJS web app running.  Sample one in `/app`
+    - Poke holes in the security group to the world
+    - Access your API from the world
+      - observe your "access logs"
 
 **Break for guest lecturer**
 
 - S3 + Cloudfront - deeper dive, create instance
   - what is a CDN ?
-  **Joint exercise**
-  Break up into your groups:
-  - create an s3 bucket
-  - configure it for web access
-  - test access to bucket
-  - create a cloudfront distribution
-  - wire up s3 bucket to cloudfront
-  - test cloudfront distribution
+  - Break up into your groups:
+    - create an s3 bucket
+    - configure it for web access
+    - test access to bucket
+    - create a cloudfront distribution
+    - wire up s3 bucket to cloudfront
+    - test cloudfront distribution
 
 **Lecture**
-- a career in DevOps
+- A career in DevOps
   - DevSecOps principles
   - Cloud Vs DevOps
   - What is it that we do, what does our day to day look like?
