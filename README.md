@@ -4,7 +4,8 @@ Birmingham School of Code - Cohort 4 AWS day
 
 ## Objective
 
-Give SOC students a feel for AWS and then be able to deploy an application to EC2 and a static site to S3 + Cloudfront
+Give SOC students a feel for AWS and then be able to deploy an application to EC2 and a static site to S3 + Cloudfront.
+Give as much hands on as possible.
 
 ## Timetable
 
@@ -31,10 +32,12 @@ Break up into your groups:
 
 **Break for guest lecture**
 
-- Lecture - a career in DevOps
-  - What is it that we do
-    - what does our day to day look like
-- Learning path
+**Lecture**
+ - a career in DevOps
+   - DevSecOps principles
+   - Cloud Vs DevOps
+  - What is it that we do, what does our day to day look like?
+- DevSecOps Learning path
   - [https://aws.amazon.com/training/path-devops/]()
   - [https://cloudacademy.com/library/devops/learning-paths/]()
   - [https://acloud.guru/learn/aws-technical-essentials]()
