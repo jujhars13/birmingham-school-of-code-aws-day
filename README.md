@@ -24,11 +24,12 @@ Finish | ~4:00pm
 
 **Joint exercise**
 Break up into your groups:
-  - Spin up and configure an ec2 instance in our dev VPC of choice
+  - Spin up and configure an ec2 instance in dev VPC of choice
   - Get nodejs 14+ installed
-  - Get a rudimentary NodeJS web app running [https://gist.github.com/jujhars13/e978bae3ead9d066d0da07119a26b10f]()
+  - Get a rudimentary NodeJS web app running.  Sample one in `/app`
   - Poke holes in the security group to the world
-  - Access web app from the world
+  - Access your API from the world
+    - observe your "access logs"
 
 **Break for guest lecture**
 
