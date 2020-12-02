@@ -2,17 +2,17 @@
 Birmingham School of Code - Cohort 4 AWS day
 **2020-12-03**
 
-- Admin - create slack channel, split up into pairs, give each pair a (/zoom breakout room), and aws account creds, log in spreadsheet pls
+## Objective
+
+Give SOC students a feel for AWS and then be able to deploy an application to EC2 and a static site to S3 + Cloudfront
+
 ## Syllabus
 
-Objective: Give SOC students a feel for AWS and then be able to deploy an application to EC2 and a static site to S3 + Cloudfront
-Syllabus
-
+- Admin - create slack channel, split up into pairs, give each pair a (/zoom breakout room), and aws account creds, log in spreadsheet pls
 - Intro - the team, who we are:
   our journeys into software engineering (go through your linkedin profile)
-
-- Lecture - Intro Cloud ~ 10 mins https://www.slideshare.net/CloudHesive/aws-101-an-introduction-to-the-amazon-cloud
-- Explore aws a bit
+- Lecture - Intro to AWS Cloud ~ 10 mins https://www.slideshare.net/CloudHesive/aws-101-an-introduction-to-the-amazon-cloud
+- Explore AWS a bit and go over services
 
 **Joint exercise**
   - Spin up and configure an ec2 instance in our VPC of choice
@@ -21,7 +21,7 @@ Syllabus
   - Poke holes in the security group to the world
   - Access web app from the world
 
-**BREAK**
+**Break for guest lecture**
 
 - Lecture - a career in DevOps
   - What is it that we do
