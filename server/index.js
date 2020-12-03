@@ -10,7 +10,13 @@ const {
 } = process.env;
 
 const requestHandler = (request, response) => {
-  const out = { message: "A Friendly JSON REST API", environment, yourName };
+  const out = {
+    message: "A Friendly JSON REST API",
+    environment,
+    yourName,
+    path: request?.url,
+    method: request.method
+  };
 
   // have a "healthcheck" route that can be used to check service health
   if (request.url === "/healthcheck" && request.method === "GET") {
