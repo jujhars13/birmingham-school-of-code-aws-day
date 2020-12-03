@@ -28,7 +28,7 @@ aws ec2 run-instances \
                     curl --silent --location https://rpm.nodesource.com/setup_14.x | bash -
                     yum -y install nodejs
                     # install our "app"
-                    (cd / && curl -O https://raw.githubusercontent.com/jujhars13/birmingham-school-of-code-aws-day/main/server/index.js)
+                    (cd / && curl -O https://raw.githubusercontent.com/jujhars13/birmingham-school-of-code-aws-day/main/app/index.js)
                     # run our app on port 80 (only works as root )
                     port=80 node /index.js
                     "
