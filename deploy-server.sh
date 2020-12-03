@@ -8,7 +8,7 @@ export securityGroupId="sg-0cb09424b588f4ba9"
 # aws linux 2, eu-west-1, 2020-12-02
 export imageId="ami-0ce1e3f77cd41957e"
 export instanceRole="ec2-for-ssm"
-export serverName="jujhar-soc-demo-${RANDOM}"
+export serverName="jazz-soc-demo-${RANDOM}"
 export keyName="jujhar-id-rsa"
 
 echo "Creating ${serverName} in ${AWS_DEFAULT_REGION}"
@@ -27,8 +27,8 @@ aws ec2 run-instances \
                     # install node js
                     curl --silent --location https://rpm.nodesource.com/setup_14.x | bash -
                     yum -y install nodejs
-                    # install our "app"
-                    (cd / && curl -O https://raw.githubusercontent.com/jujhars13/birmingham-school-of-code-aws-day/main/app/index.js)
+                    # install our 'app'
+                    (cd / && curl -O https://raw.githubusercontent.com/jujhars13/birmingham-school-of-code-aws-day/main/server/index.js)
                     # run our app on port 80 (only works as root )
                     port=80 node /index.js
                     "
